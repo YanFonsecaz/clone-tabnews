@@ -2,15 +2,28 @@
   "name": "clone-tabnews",
   "version": "1.0.0",
   "description": "Estudos do curso.dev",
+  "homepage": "https://github.com/YanFonsecaz/clone-tabnews#readme",
+  "bugs": {
+    "url": "https://github.com/YanFonsecaz/clone-tabnews/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanFonsecaz/clone-tabnews.git"
+  },
+  "license": "MIT",
+  "author": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.3"
   }
 }
